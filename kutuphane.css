@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+.navigasyonbar{
+    width: 100%;
+}
+
+.metehankorkmaz{
+    margin-left: 30%;
+    margin-top: 1%;
+}
+.rabiabakir{
+    margin-left: 50%;
+    margin-top: -26.9%;
+}
+.kucukprens{
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.madonna{
+    margin-left: 20%;
+    margin-top: -30.3%;
+}
+.sineklerintanrisi{
+    margin-left: 37%;
+    margin-top: -31.8%;
+}
+.kafamdabirtuhaflik{
+    margin-left: 54%;
+    margin-top: -33.1%;
+}
+.yabanci{
+    margin-left: 71%;
+    margin-top: -33.5%;
+}
+.ustduyuru{
+    margin-top: -19%;
+    margin-left: 20.5%;
+    z-index: 9;
+    position: absolute;
+}
+.kaydirmalisey{
+    height: 10%;
+    opacity: 0.9;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+}
+.altkısım1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+}
+.altkısım2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -11.5%;
+}
+.altkısım3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 65%;
+    margin-top: -11.5%;
+}
+.kitap1{
+    margin-left: 1%;
+}
+.kitap2{
+    margin-top: -33.8%;
+    margin-left: 18%;
+}
+.kitap3{
+    margin-top: -38.9%;
+    margin-left: 35%;
+}
+.kitap4{
+    margin-top: -33.5%;
+    margin-left: 52%;
+}
+.kitaplar{
+    justify-content: center;
+    margin-left: 19%;
+}
+.metehankorkmazbaslik{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+    text-align: center;
+    margin-left: -2%;
+}

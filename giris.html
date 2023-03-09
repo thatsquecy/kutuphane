@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kütüphane Giriş</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+
+    <form name=login>
+    <div class="girismenu">
+        <div class="girisbaslik">
+            <h1 class="girisyap">Quecy Kütüphane</h1>
+        </div>
+        <div class="girisresim">
+            <img src="library-icon.png" width = "100" height = "100">
+        </div>
+        <div class="kullaniciadi">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Kullanıcı Adı Giriniz." aria-label="kullaniciadi" aria-describedby="basic-addon1" name=username>
+              </div>
+        </div>
+        <div class="sifre">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">?</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Şifre Giriniz." aria-label="sifre" aria-describedby="basic-addon1" name=password>
+              </div>
+        </div>
+        <div class="girisbuton">
+            <button type="button" class="btn btn-primary" onClick="Login()">Giriş Yap</button>
+        </div>
+    </div>
+    </form>
+
+
+
+
+    <script src="girissistemi.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

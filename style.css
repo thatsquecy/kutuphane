@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.girismenu{
+    margin-top: 50%;
+}
+.girisbaslik{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.kullaniciadi{
+    margin-top: 3%;
+    width: 75%;
+    margin-left: 12%;
+}
+.sifre{
+    margin-top: -3%;
+    width: 60%;
+    margin-left: 20%;
+}
+.girisbuton{
+    margin-top: -2%;
+    margin-left: 35%;
+}
+.girisresim{
+    margin-left: 31%;
+}
